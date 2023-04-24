@@ -1,4 +1,6 @@
 import SingleItem from './SingleItem';
+import customFetch from './utils';
+
 const Items = ({ items }) => {
   return (
     <div className='items'>
